@@ -145,11 +145,16 @@ Responsive media queries
 }
 
 #about {
-  background: url('../img/stive.jpg') no-repeat;
+  width: 100%;
+  /*background: url('../img/stive.jpg') no-repeat;*/
   background-size: cover;
+  background: #4a4a4a;
   margin-bottom: 0px;
+  color: white;
 }
-
+#about p{
+  color: inherit;
+}
 .section-padding {
   padding: 60px 0px;
 }
